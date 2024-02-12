@@ -1,0 +1,113 @@
+{
+  "id": "94b8499c-76e3-4fc8-8697-6a3af04b9f90",
+  "version": "2.0",
+  "name": "Selenium test",
+  "url": "https://qentinelqi.github.io/shop/",
+  "tests": [{
+    "id": "0c5da941-db1a-4ce5-860f-7a22feda4ef3",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a4841106-0db9-4224-9682-b61bf5e24972",
+    "name": "Selenium TC for CRT",
+    "commands": [{
+      "id": "46d803cd-4219-4791-94a6-badae1e5894f",
+      "comment": "",
+      "command": "open",
+      "target": "https://qentinelqi.github.io/shop/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbba8eeb-6c84-4f9b-9d6c-985efb2c03f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d300c494-2df6-4329-8973-b2460bb49e74",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .style:nth-child(1) img",
+      "targets": [
+        ["css=li:nth-child(2) .style:nth-child(1) img", "css:finder"],
+        ["xpath=//div[@id='products']/section/div/ul/li[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1036a87e-7c14-49dd-a4d1-6f16d576fe23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "768e98df-0cde-4ca7-b6f9-457f9c614414",
+      "comment": "",
+      "command": "click",
+      "target": "name=Color",
+      "targets": [
+        ["name=Color", "name"],
+        ["css=.snipcart-item-custom-fields__field:nth-child(2) .snipcart-dropdown-custom-field", "css:finder"],
+        ["xpath=//select[@name='Color']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/ul/li/div/div/div[2]/div/div[2]/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed49bc4a-d375-4783-8b18-0dbc7f6ce341",
+      "comment": "",
+      "command": "select",
+      "target": "name=Color",
+      "targets": [],
+      "value": "label=Green"
+    }, {
+      "id": "f48d82f8-0f91-47be-be53-68349caa4258",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button",
+      "targets": [
+        ["css=.snipcart-cart-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/div/div[2]/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f680a0e-be8f-4c6b-b929-461f51ab82ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-summary__content",
+      "targets": [
+        ["css=.snipcart-cart-summary__content", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/div/div/div/div[2]/div/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dec1c746-4a7f-4247-8ed2-705fee1cf1c6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8dd69ad3-a432-47db-99de-09bf84b58cd9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0c5da941-db1a-4ce5-860f-7a22feda4ef3"]
+  }],
+  "urls": ["https://qentinelqi.github.io/shop/"],
+  "plugins": []
+}
